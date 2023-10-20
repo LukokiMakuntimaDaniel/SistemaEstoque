@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro de Produto</title>
+    <script src="js/verMais.js"></script>
+</head>
+
+<body onload="setInterval(verificar,1000)">
+    
+    <header>
+        <nav>
+            <div class="menu">
+                <ul> <a href="estoque.php">
+                        <li>ESTOQUE</li>
+                    </a>
+                    <a href="relatorio.php">
+                        <li>RELATÓRIO</li>
+                    </a>
+                    <a href="cadastro.html">
+                        <li>CADASTRO</li>
+                    </a>
+                    <a href="homePage.php">
+                        <li>HOME</li>
+                    </a>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="contioudo">
+            <h1>Cadastre seu produto</h1>
+            
+            <form action="php/cadastrarProduto.php"  method="POST" enctype="multipart/form-data">
+                <label>Nome: </label> </br>
+                <td> <input type="txt" name="name"  class='dicas' placeholder="  informe onome do produto"></br>
+                    <label>Quantidade: </label></br>
+                    <input type="number" name="qtd" class='dicas' placeholder=" quantidade do produto"></br>
+                    <label>Preço:</label></br>
+                    <input type="number" name="valor" class='dicas' placeholder="   informe ovalor de de um produto"></br>
+                    <label>imagem: </label></br>
+                    <input type="file" name="file" class='dicas' placeholder="   ex:css/fundo/nome da imagem.jpg"></br>
+                    <div class="btn">
+                        <button type="submit"  id="aperta" name="botao" disabled="true" >Cadastrar</button>
+                        <button type="reset" name="botao">Cancelar</button>
+                    </div>
+            </form>
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+</body>
+
+</html>

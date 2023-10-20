@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body,html {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 40px;
+    background-color: rgba(75, 3, 146, 0.867);
+
+}
+
+/*menu do banner*/
+
+
+.menu ul li {
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-size: 10pt;
+    text-align: right;
+    float: right;
+    padding: 15px;
+    transition: 2s;
+    cursor: pointer;
+    padding: 15px;
+    margin-right: 12px;
+
+
+}
+
+.menu ul li:hover {
+    height: 12px;
+    font-size: 11pt;
+    background-color: white;
+    color: rgba(75, 3, 146, 0.867);
+    transition: 2s;
+}
+
+/*:::::::::::::::::::::::::::   aside  :::::::::::::::::::::::::::::*/
+aside {
+    margin-top: 1%;
+    height: 100vh;
+    width: 76%;
+    background-color: white;
+    clear: both;
+    padding: 1%;
+    position: absolute;
+
+}
+
+.pesquisa {
+    height: 20px;
+    position: absolute;
+    top: 3%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 40px;
+    padding: 10px;
+    background: white;
+    border: 2px solid rgba(75, 3, 146, 0.867);
+
+}
+
+
+
+.pesquisa input {
+    height: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgba(75, 3, 146, 0.867);
+
+    font-size: 16px;
+    transform: 0.5s;
+    line-height: 40px;
+    width: 240px;
+}
+
+
+
+.card {
+    margin-top: 3%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+
+}
+
+aside fieldset {
+    width: 100px;
+    height: 100vh;
+    float: right;
+    box-shadow: 1px 12px 10px;
+    margin-right: 20px;
+   
+
+}
+
+aside fieldset p {
+    text-indent: 20px;
+    color: black;
+    float: left;
+    margin-bottom: 62px;
+    font-size: 14pt;
+
+}
+
+aside fieldset img {
+    box-shadow: 1px 1px 2px;
+    width: 200px;
+    height: 150px;
+}
+
+aside #adicionar {
+    margin-left: 34px;
+    width: 24px;
+    height: 24px;
+    float: right;
+    transition: 3s;
+    color: white;
+    text-align: center;
+    background-color: rgba(75, 3, 146, 0.867);
+
+}
+
+aside button {
+    margin-left: 120px;
+    background-color: #CFE2F6;
+    border: none;
+    transition: 1s;
+
+}
+
+aside button #adicionar:hover {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: rgb(87, 50, 108);
+    transition: 1s;
+}
+
+/*::::::::::::::::::::::::::section::::::::::::::::::::::::::*/
+section {
+    margin-top: 1%;
+
+    background-color: rgba(75, 3, 146, 0.867);
+    height: 100vh;
+    width: 20%;
+    float: right;
+    clear: both;
+ 
+
+}
+
+section td {
+    color: white;
+    font-size: 14pt;
+
+}
+
+section table {
+    margin: 8px;
+    margin-top: 25%;
+
+}
+
+section table tr td {
+
+    padding: 15px;
+}
+
+section .comprar button {
+    background-color: white;
+    color: rgba(75, 3, 146, 0.867);
+    font-size: 14pt;
+    width: 80%;
+    height: 40px;
+    border-radius: 12px;
+    transition: 1s;
+}
+
+section .comprar button:hover {
+    background-color: #cccc;
+
+    transition: 2s;
+}
+
+section .comprar {
+    margin-top: 18%;
+}

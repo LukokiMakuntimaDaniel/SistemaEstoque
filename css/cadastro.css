@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 40px;
+    background-color: rgba(75, 3, 146, 0.867);
+}
+
+
+/*menu do banner*/
+
+
+.menu ul li {
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-size: 10pt;
+    text-align: right;
+    float: right;
+    padding: 15px;
+    transition: 2s;
+    cursor: pointer;
+    padding: 15px;
+    margin-right: 12px;
+
+
+}
+
+.menu ul li:hover {
+    height: 12px;
+    font-size: 11pt;
+    background-color: white;
+    color: rgba(75, 3, 146, 0.867);
+    transition: 2s;
+}
+
+
+section {
+    background-color: white;
+    width: 70%;
+    height: 480px;
+    margin: auto;
+    margin-top: 3%;
+    box-shadow: 1px 2px 2px 2px black;
+}
+
+h1 {
+    color: rgba(75, 3, 146, 0.867);
+    margin-bottom: 2%;
+    font-size: 16pt;
+
+}
+
+
+
+.contioudo {
+    position: absolute;
+    text-align: start;
+    width: 69%;
+    height: 470px;
+    margin: 1%;
+
+}
+
+.contioudo form {
+    margin-left: 10%;
+}
+
+.contioudo input {
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+    border: solid #000000 1px;
+    box-shadow: 1px 1px 2px;
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+
+
+.contioudo button {
+    width: 40%;
+    height: 30px;
+    float: left;
+    background-color: rgba(75, 3, 146, 0.867);
+    font-size: 14pt;
+    color: white;
+    border-radius: 8px;
+    border: solid #000000 1px;
+    box-shadow: 1px 1px 1px;
+    transition: 1s;
+    margin-top: 3%;
+    margin-bottom: 12px;
+    margin-left: 2%;
+}
+
+.btn {
+    margin-right: 18%;
+}
+
+.contioudo button:hover {
+    transition: 1.2s;
+
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+
+.contioudo label {
+    font-size: 12pt;
+    color: black;
+}

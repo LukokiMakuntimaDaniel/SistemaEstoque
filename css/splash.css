@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50;
+    background-image: url("fundo/3.JPG");
+    background-position: 100%;
+
+}
+
+h1 {
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 8%;
+}
+
+h3 {
+    font-size: 15pt;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.login {
+    background-color: black;
+    width: 70%;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 15%;
+    color: white;
+    opacity: 0.7;
+    float: right;
+
+}
+
+.contioudo {
+    position: absolute;
+    text-align: start;
+    width: 70%;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 15%;
+
+
+
+}
+
+.contioudo form {
+    margin-left: 30%;
+}
+
+.contioudo input {
+    width: 50%;
+    height: 30px;
+    border-radius: 8px;
+    border: solid #000000 1px;
+    box-shadow: 1px 1px 2px;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+
+
+.contioudo button {
+    width: 50%;
+    height: 30px;
+
+    background-color: black;
+    font-size: 14pt;
+    color: white;
+    border-radius: 8px;
+    border: solid #000000 1px;
+    box-shadow: 1px 1px 1px;
+    transition: 2s;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.contioudo button:hover {
+    transition: 2s;
+
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+
+.contioudo label {
+    font-size: 12pt;
+    color: white;
+}
+
+.recuperar {
+    margin-left: 25%;
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+}
+
+.recuperar:hover {
+    color: red;
+    transition: 2s;
+}
